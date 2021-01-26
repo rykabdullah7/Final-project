@@ -225,10 +225,10 @@ Will you accept {self.prop[self.turn.turn_from][1]} points for this property?
             y_pos = 40
 
             # Buttons to Accept OR Ignore
-            self.agree_btn = Button(self.decide, text = 'Accept', command = self.agree, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MD', 17))
+            self.agree_btn = Button(self.decide, text = 'Accept', command = self.agree, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MT', 17))
             self.agree_btn.place(x = 227, y = 180)
         
-            self.ignore_btn = Button(self.decide, text = 'Ignore', command = self.destroyed, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MD', 17))
+            self.ignore_btn = Button(self.decide, text = 'Ignore', command = self.destroyed, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MT', 17))
             self.ignore_btn.place(x = 87, y = 180)
 
         # False means opponent team member was clicked
@@ -260,14 +260,14 @@ What do you say?
             y_pos = 22
 
             # Buttons to either take assets or capture
-            self.agree_btn = Button(self.decide, text = 'Take & Switch', command = self.take_switch, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MD', 14))
+            self.agree_btn = Button(self.decide, text = 'Take & Switch', command = self.take_switch, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MT', 14))
             self.agree_btn.place(x = 59, y = 190)
         
-            self.capture_btn = Button(self.decide, text = 'Capture', command = self.capture_take, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MD', 14))
+            self.capture_btn = Button(self.decide, text = 'Capture', command = self.capture_take, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MT', 14))
             self.capture_btn.place(x = 259, y = 190)
             
         # Text Box to show the question
-        self.txt_box = Label(self.decide, text = self.question, bg = '#e7d789', fg = '#7e6b26', font = ('Brush Script MD', 13))
+        self.txt_box = Label(self.decide, text = self.question, bg = '#e7d789', fg = '#7e6b26', font = ('Brush Script MT', 13))
         self.txt_box.place(x = x_pos, y = y_pos)
 
         self.decide.mainloop()
