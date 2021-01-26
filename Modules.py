@@ -125,7 +125,7 @@ def turn_of(screen, turn_black):
       p.init()
       p.font.init()
       # Initializing & Defining font
-      font = p.font.SysFont("Brush Script MD", 30)
+      font = p.font.SysFont("Brush Script MT", 30)
 
       
       if turn_black:
@@ -190,10 +190,10 @@ Team Cyan: {team2} Points.
 There was a tie between the two teams.'''
 
       # Displaying message & Back to Menu Button
-      lbl = Label(win_window, text = txt, bg = '#a28938', fg = '#88001b', font = ('Brush Script MD', 16))
+      lbl = Label(win_window, text = txt, bg = '#a28938', fg = '#88001b', font = ('Brush Script MT', 16))
       lbl.place(relx = 0.5, rely = 0.5, anchor = CENTER)
 
-      menu_btn = Button(win_window, text = 'Menu', command = destroyed, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MD', 16))
+      menu_btn = Button(win_window, text = 'Menu', command = destroyed, bg = '#7e6b26', fg = '#e7d789', font = ('Brush Script MT', 16))
       menu_btn.place(relx = 0.5, rely = 0.8, anchor = CENTER)
 
       win_window.mainloop()
@@ -251,28 +251,28 @@ Student can move 2 steps forward on first move,
       # LABELS FOR EACH HEADING & PARAGRAPH
 
       # Rules
-      label1 = Label(rules, text = rules_txt, bg = '#a28938', fg = 'black', font = ('Brush Script MD', 11))
+      label1 = Label(rules, text = rules_txt, bg = '#a28938', fg = 'black', font = ('Brush Script MT', 11))
       label1.place(relx = 0.5, rely = 0.42, anchor = CENTER)
 
-      label2 = Label(rules, text = rules_hd, bg = '#a28938', fg = 'black', font = ('Brush Script MD', 14, 'bold'))
+      label2 = Label(rules, text = rules_hd, bg = '#a28938', fg = 'black', font = ('Brush Script MT', 14, 'bold'))
       label2.place(relx = 0.33, rely = 0.32, anchor = CENTER)
 
       # Properties
-      label3 = Label(rules, text = prop_txt, bg = '#a28938', fg = 'black', font = ('Brush Script MD', 12))
+      label3 = Label(rules, text = prop_txt, bg = '#a28938', fg = 'black', font = ('Brush Script MT', 12))
       label3.place(relx = 0.53, rely = 0.58, anchor = CENTER)
 
-      label4 = Label(rules, text = prop_hd, bg = '#a28938', fg = 'black', font = ('Brush Script MD', 14, 'bold'))
+      label4 = Label(rules, text = prop_hd, bg = '#a28938', fg = 'black', font = ('Brush Script MT', 14, 'bold'))
       label4.place(relx = 0.3, rely = 0.5, anchor = CENTER)
 
       # Moves
-      label5 = Label(rules, text = move_txt, bg = '#a28938', fg = 'black', font = ('Brush Script MD', 12))
+      label5 = Label(rules, text = move_txt, bg = '#a28938', fg = 'black', font = ('Brush Script MT', 12))
       label5.place(relx = 0.5, rely = 0.79, anchor = CENTER)
 
-      label6 = Label(rules, text = move_hd, bg = '#a28938', fg = 'black', font = ('Brush Script MD', 14, 'bold'))
+      label6 = Label(rules, text = move_hd, bg = '#a28938', fg = 'black', font = ('Brush Script MT', 14, 'bold'))
       label6.place(relx = 0.29, rely = 0.7, anchor = CENTER)
 
       # Back to menu
-      back_btn=Button(rules, text = 'BACK', command = back_to_menu, bg = '#7e6b26', fg = 'black', font = ('Brush Script MD', 16, 'bold'))
+      back_btn=Button(rules, text = 'BACK', command = back_to_menu, bg = '#7e6b26', fg = 'black', font = ('Brush Script MT', 16, 'bold'))
       back_btn.place(relx = 0.5, rely = 0.91, relwidth = 0.1, relheight = 0.05, anchor = CENTER)
 
       rules.mainloop()
