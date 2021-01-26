@@ -40,12 +40,15 @@ Main module focusing on GUI using:
   - Tkinter
   - pygame.display
   - PIL.ImageTk
+  
 Sound modules using:
   - pygame.mixer
+  
 Interactive gameplay using:
   - pygame
   - Tkinter
   - PIL
+  
 Self-defined functions:
   - Engine.py for:
       - Generating all valid moves
