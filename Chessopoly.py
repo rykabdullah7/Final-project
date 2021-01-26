@@ -182,13 +182,13 @@ def menu_func():
       bg_img = Label(menu, image = bg).place(x = 0, y = 0, relwidth = 1, relheight = 1)
 
       # Displaying buttons
-      playbtn = Button(menu, text = 'PLAY GAME', command = main, bg = '#7e6b26', fg = 'black', font = ('Brush Script MD', 20))
+      playbtn = Button(menu, text = 'PLAY GAME', command = main, bg = '#7e6b26', fg = 'black', font = ('Brush Script MT', 20))
       playbtn.place(relx = 0.5, rely = 0.5, anchor = CENTER)
 
-      rulesbtn = Button(menu, text = 'RULES', command = to_rules, bg = '#7e6b26', fg = 'black', font = ('Brush Script MD', 20))
+      rulesbtn = Button(menu, text = 'RULES', command = to_rules, bg = '#7e6b26', fg = 'black', font = ('Brush Script MT', 20))
       rulesbtn.place(relx = 0.5, rely = 0.64, anchor = CENTER)
 
-      exitbtn = Button(menu, text = 'EXIT', command = exit_menu, bg = '#7e6b26', fg = 'black', font = ('Brush Script MD', 20))
+      exitbtn = Button(menu, text = 'EXIT', command = exit_menu, bg = '#7e6b26', fg = 'black', font = ('Brush Script MT', 20))
       exitbtn.place(relx = 0.5, rely = 0.78, anchor = CENTER)
 
       menu.mainloop()
